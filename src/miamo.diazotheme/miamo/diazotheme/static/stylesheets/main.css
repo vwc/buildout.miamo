@@ -1,0 +1,1657 @@
+* { margin: 0; padding: 0; }
+* :link,:visited { text-decoration:none }
+* ul,ol { list-style:none; }
+* h1,h2,h3,h4,h5,h6,pre,code { font-size:1em; }
+* a img,:link img,:visited img { border:none } 
+a { outline: none; }
+table { border-spacing: 0; }
+img { vertical-align: middle; }
+
+/* @end */
+
+* li {display: inline;}
+
+/* @group Basics */
+
+body { 
+	font: 100% Arial, Verdana, FreeSans, sans-serif;
+	background: White;
+	color: Black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial, Helvetica, FreeSans, sans-serif; 
+	font-weight: bold;
+	line-height: 125%;
+	color: #000;
+}
+h1, h2 {
+	letter-spacing: -1px;
+}
+h1 {
+	font-size: 1.625em; /* 26px equiv */
+}
+h2 {
+	font-size: 1.375em; /* 22px equiv */
+}
+h3 {
+	font-size: 1.125em; /* 18px equiv */;
+}
+h4 {
+	font-size: 0.875em; /* 14px equiv */
+}
+h5 {
+	font-size: 0.75em; /* 12px equiv */
+}
+h6 {
+	font-size: 0.625em; /* 10px equiv */
+}
+
+p {
+	font-size: 0.75em; /* 12px equiv */
+}
+
+a:link, a:visited {
+	color: #000;
+}
+
+a:link:hover,
+a:visited:hover {
+	margin:0;
+	padding:0;
+	color: #75ad0a;
+}
+
+dt {
+	font-weight: bold;
+}
+input {
+	font-family: "Lucida Grande", Arial, FreeSans;
+}
+
+/* @end */
+
+/* @group Rounded Corners */
+
+.rounded {
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius: 4px;
+}
+
+/* @end */
+
+/* @group wrapper elements */
+
+html, body {
+/* Sticky footer */
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+    border: none;
+}
+
+
+#container {
+	background-color: #E7E7E7;
+	margin: 0 auto;
+	width:auto;
+}
+
+/* @frontpage */
+
+/* @fp-heaeder */
+
+#banner-wrapper {
+    background:url("../images/banner_bg.png") repeat-x 0 16px transparent;
+}
+
+#header-gallery {
+    margin: 0 auto;
+    width:977px
+}
+
+#gallery {
+    padding-bottom: 30px;
+    padding-left:17px;
+    background:url("../images/site_bg.png") repeat-y 0 0 transparent;
+}
+
+/* @fp-content */
+
+#inner-wrapper-fp {
+    width:960px;
+    margin-left: 8.5px;
+    background-color: #FFF;
+
+}
+
+#content-fp {
+    margin: 0 auto;
+}
+
+.cont-header a h2{
+    color: #FFF;
+    padding-top:10px;
+    margin-left:10px;
+    font-size:100%;
+}
+
+.cont-header {
+    background:url("../images/content_header.png") no-repeat 0 20px transparent;
+    height: 53px;
+    width:304px;
+    padding-top:20px;
+}
+
+.cont-header img {
+    margin: -60px 0 0 230px;
+}
+
+.cont-header-gr a h2{
+    color: #FFF;
+    padding-top:10px;
+    margin-left:10px;
+    font-size:100%;
+}
+
+.cont-header-gr {
+    background:url("../images/content_header_gr.png") no-repeat 0 20px transparent;
+    height: 53px;
+    width:304px;
+    padding-top:20px;
+}
+
+.cont-header-gr img {
+    margin: -60px 0 0 230px;
+}
+
+.cont-box {
+    background-color: #F2F2F2;
+    height: 230px;
+    width:280px;
+    margin: 0 12px 30px;
+}
+
+.cb-header {
+    background:url("../images/content_bg_03.png") no-repeat 0 0 transparent;
+    padding:40px 0 20px 20px;
+}
+
+.cb-img {
+    float:left;
+}
+
+.meat {
+    font-size:110%;
+    padding:0 20px 50px 160px;
+}
+
+.cont-main img {
+    padding: 0 10px;
+    float:left;
+    height:220px;
+}
+
+.cont-main p {
+    font-size:70%;
+    margin-top:10px;
+    padding-right: 10px;
+}
+
+.cont-link {
+	float:right;
+	padding-right:10px;
+}
+
+#prod-main img{
+    display:block;
+    margin: 0 auto;
+}
+
+.contactmeat {
+    color: #000 !important;
+}
+
+/* @fp-footer */
+#footer {
+    background:url("../images/footer_logo.png") no-repeat 10px 10px transparent;
+    height:151px;
+}
+
+#footer-nav ul {
+    font-size:80%;
+    padding: 30px 0 0 150px;
+}
+
+#footer-nav li{
+    background:url("../images/nav_sign.png") no-repeat 0 0 transparent;
+    float:left;
+    padding: 0 10px;
+}
+
+#footer-nav li a {
+    color: #97999A   
+}
+
+#footer-nav li a:hover {
+    color: #B00F1F   
+}
+
+/* @fp-end */
+
+/* @content-site */
+
+#navigation ul {
+    background:url("../images/nav_bar.png") no-repeat 0 0 transparent;
+    width:996px;
+    height:58px;
+    padding-left:20px;
+    padding-top:12px;
+}
+
+#navigation li{
+    float:left;
+    border-left: 1px solid #FFF;
+    font-size:95%;
+}
+
+#navigation .selected{
+
+}
+
+#portaltab-philosophie {
+    border:none !important;
+}
+
+#navigation a {
+    color: #FFF;
+    padding: 12px 10px 12px 10px;
+}
+
+#navigation a:hover {
+    background-color: #ACD373;
+    color: #587F2B;
+}
+
+#navigation .selected a {
+    background-color: #ACD373;
+    color: #587F2B !important;
+}
+
+#inner-wrapper {
+    width:960px;
+    margin-left: 8.5px;
+    background: url("../images/innerwr_bg.png") repeat-y 0 0 transparent;
+}
+
+#inner-container {
+    background:url("../images/content_bottom-bg.png") no-repeat 0 100% transparent;
+}
+
+#main-nav ul {
+    padding-top:20px;
+
+}
+
+#main-nav li {
+    font-size:75%;
+}
+
+#main-nav li a {
+    padding: 12px 0; 
+    color: #4C0000 !important;
+}
+
+#main-nav a:hover {
+    background:url("../images/nav_arrow.png") no-repeat 145px 50% transparent;
+    color: #B00F1F !important;
+}
+
+#content-wrapper {
+    margin-left: -50px;
+    padding-right:20px;
+}
+
+.content-header {
+    background:url("../images/rightbar_header_prod.png") no-repeat 0 20px transparent;
+    height: 53px;
+    width:200px;
+    padding-top:20px;
+}
+
+.content-box {
+    padding:20px 0 0 40px;
+    margin-left:-80px;
+    border-bottom: 1px solid #FFF
+}
+
+/*      @Portlet */
+
+
+.portletInner {
+    background:url("../images/rightbar_side.png") repeat-y 0 0 transparent;
+    padding-bottom:5px;
+    width:211px;
+}
+
+.portletStaticText dd {
+    background:url("../images/rightbar_side.png") repeat-y 0 0 transparent;
+    padding-bottom:5px;
+    width:211px;
+}
+.portletInner-Content {
+    background:url("../images/rightbar_bg.png") no-repeat 7px 0 transparent;
+}
+
+#portlet-static-angebot .portletHeader {
+    background: url("../images/rightbar_header_perc.png") no-repeat 0 0 transparent;
+    height:56px;
+    width:256px;
+    padding-top:15px;
+}
+
+
+#portal-column-two .portlet {
+    background:url("../images/rightbar_bottom.png") no-repeat 0 100% transparent;
+    padding-bottom:10px;
+    margin-left:-10px;
+}
+
+#portal-column-two .portletEvents .portletHeader {
+    background:url("../images/rightbar_header_perc.png") no-repeat 0 0 transparent;
+    width:231px;
+    height:40px;
+    margin-left:-10px;
+    padding-top:15px;
+    font-weight:bold;
+}
+
+#portal-column-two .portlet-static-produkte .portletHeader {
+    background:url("../images/rightbar_header_tipp.png") no-repeat 0 0 transparent;
+    width:231px;
+    height:40px;
+    margin-left:-10px;
+    padding-top:15px;
+    font-weight:bold;
+}
+
+#portal-column-two .portletNews .portletHeader {
+    background:url("../images/rightbar_header_top.png") no-repeat 0 0 transparent;
+    width:231px;
+    height:40px;
+    margin-left:-10px;
+    padding-top:15px;
+}
+
+#portal-column-two .portletHeader a{
+    color:#FFF;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+#portal-column-two .portletHeader span{
+    color:#FFF;
+    margin-left:10px;
+}
+
+#portal-column-two .portletInner .portletItem {
+    margin: 0 10px;
+    font-size:85%;
+}
+
+#portal-column-two .portletItem .tile {
+
+    font-weight: bold;
+    color: #B00F1F;
+}
+
+#portal-column-two .portletItem img {
+    padding-left:7px;
+}
+
+.section-front-page .portletItem {
+    font-size:80%;
+}
+
+.section-front-page .portletItem a {
+    font-weight:bold;
+}
+
+/*      @portlet end*/
+
+#footer-c {
+    background:url("../images/footer_logo.png") no-repeat 10px 10px transparent;
+    height:151px;
+}
+
+#footer-c-nav ul {
+    font-size:80%;
+    padding: 30px 0 0 150px;
+}
+
+#footer-c-nav li{
+    background:url("../images/nav_sign.png") no-repeat 0 0 transparent;
+    float:left;
+    padding: 0 10px;
+}
+
+#footer-c-nav li a {
+    color: #97999A   
+}
+
+#footer-c-nav li a:hover {
+    color: #B00F1F   
+}
+
+
+/* @content-site end */
+/* @global */
+
+#logo-content-fp {
+	background-color: #E7E7E7;
+}
+
+#logo-content-fp {
+	margin: 0 auto;
+	width: 977px;
+	display: block;
+}
+
+#logo-sign {
+    background:url("../images/logo_bg.png") no-repeat 0 0 transparent;
+    height: 116px;
+    
+}
+
+#logo img{
+    padding: 15px 0 0 20px;
+}
+
+#top-nav ul{
+    font-size:90%;
+    margin-left: 600px;
+    margin-top: -90px;
+}
+
+#top-nav li{
+    background:url("../images/nav_sign.png") no-repeat 0 2px transparent;
+    float:left;
+    padding: 0 10px;
+}
+
+#top-nav li a {
+    color: #97999C
+}
+
+#top-nav li a:hover {
+    color: #B00F1F;
+}
+
+
+#logo-banner {
+    width:996px;
+    margin:0 auto;
+}
+
+#outer-wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: -12px auto 0;
+    width: 977px;
+    display: block;
+    overflow: hidden;
+    border: none;
+    background:url("../images/shadow_bg.png") no-repeat -2px -1px transparent;
+}
+
+#footer-wrapper {
+    background:url("../images/footer_bg.png") no-repeat 0 0 transparent;
+    min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+    width: 960px;
+    display: block;
+    overflow: hidden;
+    border: none;
+}
+
+#smm ul {
+    padding: 65px 0 0 550px;
+}
+
+#smm li {
+    float:left;
+    padding: 0 5px;
+}
+
+#footer-info {
+    color: #97999A;
+}
+
+#footer-info a {
+    color: #97999A;
+}
+
+#bottom-border {
+    height:10px;
+    background-color: #840000;
+}
+
+#portal-searchbox {
+    margin-top: -25px;
+    padding-left:600px;
+}
+/* @global end */
+/* @special */
+
+/* @group Navigation portlet */
+
+dl.portlet ul.navTree li a {
+    border: none;
+    display: block;
+    zoom: 1;
+}
+
+dl.portlet ul.navTree li a:hover {
+
+}
+
+dl.portletNavigationTree dd.portletItem {
+    padding: 0;
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+    border-bottom: 1px solid #F2F2F2
+
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+    padding-left: 0.5em;
+    line-height: 2em;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+    background:url("../images/nav_arrow.png") no-repeat 145px 50% transparent;
+    color: #B00F1F !important;
+}
+
+/* @end */
+
+/* @group Content Area */
+
+#content {
+    line-height: 1.5em;
+    clear: both;
+    font-size: 80%;
+    margin: 1em 0.25em 2em 0.25em;
+}
+
+/* Special case of #content - TinyMCE */
+body#content {
+    margin: 1em;
+}
+
+#content h1 {
+    margin-top: 0.5em;
+}
+
+#content h1.documentFirstHeading {
+    margin-top: 0;
+    color: #B00F1F;
+}
+#content h2 {
+    color: #B00F1F;
+}
+
+#content p,
+#content table,
+#content dl,
+dl.portlet p,
+dl.portlet {
+    margin-bottom:1em;
+    margin-right: 0.5em;
+}
+
+#content p {
+    text-align: justify;
+    font-size: 0.85em;
+}
+
+#content ul,
+#content ol {
+
+}
+
+#content a:link,
+dl.portlet a:link {
+    color: #8B0E13;
+    border-bottom: 0em solid #ccc;
+}
+
+#content a:visited,
+dl.portlet a:visited {
+    color: #8B0E13;
+    border-bottom: 0em solid #ccc;
+}
+#content a:hover,
+dl.portlet a:hover {
+    color: #75ad0a;
+}
+#content a:target {
+    background-color: #ffb;
+}
+#content span.link-external a {
+    background: transparent url(link_icon.png) 0px 1px no-repeat;
+    padding: 1px 0px 1px 16px;
+}
+
+#category {
+    font-size: 75%;
+    margin-bottom: 1em;
+    color: #666;
+    text-align: right;
+}
+
+#category a.link-category {
+    color: black;
+    padding: 0.25em 0.5em;
+    background: #ddd;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+#category a.link-category:hover {
+    background: #205c90;
+    color: White;
+    border-color: #205c90;
+}
+#category .separator {
+    display: none;
+}
+
+#content ul {
+    list-style-type: disc;
+    margin-left: 2em;
+}
+
+#content ol,
+dl.portlet ol {
+    list-style-type: decimal;
+    margin-left: 2em;
+}
+
+#content li,
+dl.portlet li {
+    display: list-item;
+}
+
+#content dt {
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+#content dd {
+    margin: 0 0 1em 2em;
+}
+
+#content pre {
+    background-color: #222;
+    color: White;
+    font-family: Consolas, Inconsolata, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;
+    padding: 1em;
+    overflow-x: auto;
+    font-size: 90%;
+    margin-bottom: 1em;
+    line-height: 1.25em;
+}
+#content pre.python {
+    background-color: White;
+}
+
+#content code {
+    font-family: Consolas, Inconsolata, Menlo, "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;
+}
+
+#content div.documentByLine {
+    font-size: 85%;
+    display: block;
+    color: #666;
+}
+
+#content .discreet,
+#sidebar .discreet {
+    color: #666;
+    font-size: 85%;
+    font-weight: normal;
+}
+
+#content .visualHighlight {
+    background-color: #ffb;
+}
+
+#content .pullquote {
+    margin: 0 1em 0.5em 0.5em;
+    font-weight: bold;
+    line-height: 1.25em;
+    float: right;
+    width: 35%;
+    clear: right;
+    color: #444;
+    font-size: 1.6em;
+    letter-spacing: -0.08em !important;
+}
+#content .callout {
+    padding: 1em;
+    border: 2px solid #B00F1F;
+    clear: both;
+}
+
+
+#content table {
+    text-align: left;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
+#content .documentDescription,
+#content #description {
+    color: #666;
+    margin-left: 0;
+    font: bold 1.25em "Helvetica Neue", Arial, FreeSans, sans-serif;
+}
+
+#content img.tileImage,
+#content div.newsImageContainer {
+    float: right;
+    margin: 0 1em 0.5em 1em;
+}
+#content div.newsImageContainer a {
+    border-bottom: none;
+}
+#content div.newsImageContainer p.discreet {
+    margin: 0;
+    padding: 0.5em;
+    background-color: #666;
+    background-color: rgba(40,40,40,0.7);
+    color: White;
+    font-weight: bold;
+    position: relative;
+    width: 190px;
+    top: -3em;
+}
+.eventDetails {
+    float: right;
+    clear: right;
+    margin: 0 0 0.5em 1em;
+}
+
+
+#content-core .tileItem {
+    padding-top:20px;
+    border-bottom: 1px solid #B00F1F;
+}
+
+#content-core dt {
+    padding-top:10px;
+}
+
+/* @end */
+
+
+
+/* @group Data tables */
+
+table.listing,
+table.plain {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+table.invisible td,
+table.invisible th,
+table.plain td,
+table.plain th,
+table.listing td,
+table.listing th {
+    padding: 0.5em 1em;
+    vertical-align: top;
+}
+table.plain th,
+table.plain td {
+    border: 1px solid #ddd;
+}
+
+table.listing td.listingCheckbox,
+table.listing th.listingCheckbox {
+    text-align: center;
+}
+
+table.listing th {
+    text-align: left;
+    color: #666;
+    border: 0.1em solid #e7e7e7;
+    border-style: solid none none;
+}
+table.listing tr.odd th {
+    border: 0.1em solid #fff;
+    border-style: solid solid none none;
+}
+table.listing tbody th {
+    font-weight: bold;
+}
+table.listing tbody tr {
+    text-align:left;
+}
+table.listing tbody tr.odd {
+    background: #eee;
+}
+table.listing tbody tr td {
+    background: transparent;
+}
+table.listing tbody tr.odd td {
+    background: #eee;
+}
+table.listing a {
+    border: none;
+    display: inline-block;
+    border-bottom: none !important;
+}
+
+table.listing td.draggable {
+    text-shadow: White 1px 1px 1px;
+    background: #ddd !important;
+    border-bottom: 1px solid white;
+    padding: 0.4em 0.4em 0 0.5em;
+}
+/* Vertical table data listings */
+table.vertical {
+}
+table.vertical th {
+    text-align: right;
+}
+table.vertical td {
+    border-top: 0.1em solid #e7e7e7;
+    padding: 0.5em;
+}
+/* Grid table listings */
+table.grid td,
+table.grid th {
+    border: 1px solid #e7e7e7;
+    padding: 0.5em;
+}
+
+.dragindicator {
+    outline: 2px solid #FFD700;
+}
+
+#foldercontents-order-column {
+    padding: 0;
+}
+
+div.listingBar {
+    font-size: 80%;
+    margin: 1em 0;
+}
+
+div.listingBar .next {
+    display: inline-block;
+    float: right;
+}
+
+div.listingBar .previous {
+    display: inline-block;
+}
+
+div.listingBar a {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    border: 0.1em solid #ccc;
+}
+
+div.listingBar a:hover {
+    color: White;
+    background-color: #329fd7;
+    border-color: #329fd7;
+}
+
+/* @end */
+
+/* @group Status messages */
+
+dl.portalMessage {
+    margin: 1em 0;
+    font-size: 80%;
+    border: 1px solid #996;
+    background-color: #ffffe3;
+    clear:both;
+}
+dl.portalMessage a,
+#content dl.portalMessage a {
+    color: black;
+    border-bottom: 1px solid #888;
+}
+dl.portalMessage dt {
+    background-color: #996;
+    font-weight: bold;
+    float: left;
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0.75em;
+    color: White;
+    line-height: 1.25em;
+}
+dl.portalMessage dd {
+    padding: 0.5em 0.5em;
+    margin: 0;
+    line-height: 1.25em;
+}
+dl.warning {
+    border-color: #d80;
+}
+dl.warning dt {
+    background-color: #d80;
+}
+dl.error {
+    border-color: #d00;
+}
+dl.error dt {
+    background-color: #d00;
+}
+dl.warning {
+    border-color: #d80;
+}
+dl.warning dd {
+    background-color: #fd7;
+}
+dl.error {
+    border-color: red;
+}
+dl.error dd {
+    background-color: #fdc;
+}
+
+/* Additional specificity for when status is shown inside #content */
+#content dl.portalMessage {
+    font-size: 100%;
+}
+#content dl.portalMessage dt {
+    margin: 0 0.5em 0 0;
+    padding: 0.5em 0.75em;
+}
+#content dl.portalMessage dd {
+    margin: 0;
+}
+
+/* @end */
+
+/* @group Image alignment classes */
+
+.image-left {
+   float: left;
+   clear: both;
+   margin: 0.5em 1em 0.5em 0;
+}
+.image-right {
+   float: right;
+   clear: both;
+   margin: 0.5em;
+}
+.image-inline {
+    float: none;
+}
+/*note: the tricky thing here is that image-inline|image-left|image-right
+can both be on an image and a wrapper element e.g. a dl tag*/
+img.image-left,
+img.image-right,
+.captioned img {
+    border: 1px solid #ddd;
+}
+dd.image-caption {
+    text-align: left;
+    padding: 0 0 0 3px; /*image padding+border with*/
+    margin: 0;
+    color: #666;
+    font-size: 85%;
+}
+
+/* @end */
+
+/* @group Editing */
+
+/* @group Tabs */
+
+/* Color differences between the two tab types */
+#content ul.formTabs {
+    background-color: #ddd;
+    border: 0.3em solid #ddd;
+}
+#editbar-wrapper {
+    width: 960px;
+    margin: 0px auto;
+}
+
+#edit-bar {
+    background-color: #B00F1F;
+    border: 0.25em solid #B00F1F;
+    font-size: 80%;
+    min-height: 2em;
+    margin-bottom: 0em;
+    margin-top: 1em;
+    padding-top: 0.05em;
+}
+#content-views {
+    float: left;
+    background-color: #B00F1F;
+}
+#content-views a {
+    color: White;
+}
+
+/* Shared CSS between the two tab types */
+#edit-bar,
+#content ul.formTabs {
+    display: block;
+    border-style: solid solid none solid;
+    margin-left: 0;
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    -webkit-border-top-right-radius: 0.5em;
+    -webkit-border-top-left-radius: 0.5em;
+    -moz-border-radius-topleft: 0.5em;
+    -moz-border-radius-topright: 0.5em;
+}
+#content li.formTab {
+    display: inline;
+    margin-right:0.25em;
+}
+#content-views a,
+#content li.formTab a {
+    /* this isn't supported by all browsers, so we keep it in a separate rule */
+    display: inline-block;
+}
+#content-views a,
+#content li.formTab a {
+    line-height: 2em;
+    padding: 0 0.75em;
+    text-decoration: none;
+    border: none;
+    margin: 0 ;
+}
+#content-views li.selected a,
+#content li.formTab a.selected {
+    font-weight: bold;
+}
+#content-views li.selected a,
+#content-views li a:hover,
+#content li.formTab a.selected,
+#content li.formTab a:hover {
+    background: White;
+    color: Black;
+}
+#content-views li.selected a,
+#content-views li a:hover,
+#content li.formTab a.selected,
+#content li.formTab a:hover {
+    border-top-right-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+    -webkit-border-top-right-radius: 0.5em;
+    -webkit-border-top-left-radius: 0.5em;
+    -moz-border-radius-topleft: 0.5em;
+    -moz-border-radius-topright: 0.5em;
+}
+#content li.formTab a.notify {
+    background-color: red;
+    color: White;
+}
+#content li.formTab a.required span {
+    background-image: url(required.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 1em;
+}
+#content fieldset.formPanel {
+    border: none;
+}
+#content fieldset.formPanel.hidden {
+    display: none;
+}
+#content div.formControls input.hidden {
+    display: none;
+}
+
+/* @end */
+
+/* @group Pulldown menus */
+
+/* @group Personal tools pulldown */
+#portal-personaltools dl {
+}
+#portal-personaltools dt {
+    font-weight: normal;
+}
+#portal-personaltools dt.actionMenuHeader a:after {
+    content: " ▼";
+}
+#portal-personaltools dd {
+    right: 0;
+    padding-top: 0.5em;
+}
+#portal-personaltools dd {
+    background: #e3e3e3;
+    padding-bottom: 0.5em;
+}
+#portal-personaltools dd a {
+    line-height: 2em;
+    padding: 0 0.75em;
+}
+#portal-personaltools dd a:hover {
+    background: #205c90;
+    color: White;
+}
+
+/* @end */
+
+/* @group Content pulldowns */
+
+#contentActionMenus dl.actionMenu a,
+#contentActionMenus dl.actionMenu.activated dd {
+    background-color: #B00F1F;
+    color: White;
+    z-index: 5;
+}
+#contentActionMenus dl.actionMenu.activated dd {
+    border-bottom: 0.5em solid #B00F1F;
+        right: -3px;
+}
+#contentActionMenus dl.actionMenu.activated dd a:hover,
+#contentActionMenus dl.actionMenu.activated dd .actionMenuSelected {
+    background-color: White !important;
+    color: #666;
+}
+#contentActionMenus dl.actionMenu {
+    line-height: 2em;
+}
+
+#folderHeader, #contextHeader {
+        border-bottom: 2px solid white;
+}
+
+#contextHeader { margin-top: 5px; }
+
+
+/* @end */
+
+#contentActionMenus {
+    float: right;
+    background: #B00F1F;
+    margin: 0;
+    position: relative;
+    top: -0.23em;
+    right:-0.24em;
+    padding: 0.1em 0.24em 0 0;
+    border-radius: 0.5em;
+    border-top-left-radius: 0;
+    -webkit-border-radius: 0.5em;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius: 0.5em;
+    -moz-border-radius-topleft: 0;
+}
+
+.actionMenuContent {
+    padding: 0 0.25em;
+}
+
+dl.actionMenu {
+    float: right;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 0.5em;
+}
+dl.actionMenu a,
+dl.actionMenu div {
+    display: block !important;
+    white-space: nowrap;
+}
+dl.actionMenu dt {
+    font-weight: normal;
+}
+span.arrowDownAlternative {
+    font-size: 80%;
+}
+dl.actionMenu.deactivated dt {
+    margin: 0 0.25em;
+}
+dl.actionMenu.deactivated dd {
+    display: none;
+}
+dl.actionMenu.activated dd {
+    position: absolute;
+    width: auto;
+    min-width: 100%;
+    border-bottom-right-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    -webkit-border-bottom-right-radius: 0.5em;
+    -webkit-border-bottom-left-radius: 0.5em;
+    -moz-border-radius-bottomleft: 0.5em;
+    -moz-border-radius-bottomright: 0.5em;
+}
+dl.actionMenu.activated dt a,
+dl.actionMenu.activated dd a,
+dl.actionMenu.activated dd div {
+    margin: 0 0.25em;
+}
+
+/* @end */
+
+/* @group Control panel */
+
+#setup-link {
+    font-size: 90%;
+}
+
+#content ul.configlets {
+    margin: 1em 0;
+    list-style-image: none;
+    list-style: none;
+}
+#content ul.configlets li {
+    margin-bottom: 1em;
+    list-style: none;
+    display: block;
+}
+#content ul.configlets li a {
+    text-decoration: none;
+    border: none;
+}
+#content ul.configlets li a:visited {
+    color: #436976;
+    background-color: transparent;
+}
+#content ul.configlets li a:active {
+    color: #436976;
+    background-color: transparent;
+}
+#content ul.configlets li label {
+    font-weight: bold;
+}
+#content ul.configletDetails {
+    margin: 0em 1em 1em 4em;
+    list-style-image: none;
+    list-style: none;
+}
+#content ul.configletDetails li {
+    margin-bottom: 1em;
+    display: inline;
+}
+#content ul.configletDetails li a {
+    text-decoration: none;
+}
+#content ul.configletDetails li label {
+    font-weight: bold;
+}
+#content ul.configletDetails li.configletDescription {
+    display: block;
+    color: #76797c;
+    margin: 0;
+}
+.inlineDisplay {
+    display:inline
+}
+table.controlpanel-listing {
+    width:100%;
+}
+table.controlpanel-listing td, table.controlpanel-listing th {
+    font-size:120%;
+}
+table.controlpanel-listing dl {
+    margin-top:0;
+}
+table.controlpanel-listing dd {
+    margin-left: 1em;
+}
+table.controlpanel-listing dl dt a .trigger{
+    font-weight:normal;
+}
+table .controlpanel-listing td {
+    vertical-align:top;
+}
+table.controlpanel-listing td.checker{
+    text-align:center;
+}
+table.controlpanel-listing th.smallcolumn {
+    width:1.5em;
+}
+.chooser-right {
+    float:right;
+    margin-right:0;
+    margin-bottom:0;
+}
+.rule-element {
+    background-color:#EEF3F5;
+    margin:0.5em 0pt 0.5em;
+    padding:0.3em 1em 0.3em 1em;
+    width:auto;
+}
+.rule-element dl {
+}
+.rule-element dl dd {
+    margin-left:1em;
+}
+.rule-updown, .rule-operations {
+    float:right;
+    padding-top:0.8em;
+}
+/* @end */
+
+/* @group Forms */
+
+fieldset,
+.editionComment {
+    line-height:1.5em;
+    margin:1em 0;
+    padding:0 1em 1em;
+    width:auto;
+}
+
+/* Emulates the styling from the h1 tag */
+#archetypes-fieldname-title input {
+    font-family: "Helvetica Neue", Arial, FreeSans, sans-serif;
+    line-height: 125%;
+    color: Black;
+    letter-spacing: -0.05em;
+    margin: inherit -0.05em;
+    font-size: 2em; /* 26px equiv */
+    font-weight: bold;
+}
+
+/* Emulates styling from the description's view */
+#archetypes-fieldname-description textarea#description {
+    font-family: Arial,FreeSans,sans-serif;
+    color:#666666;
+    font-size:1.25em;
+    font-weight: bold;
+}
+
+
+div.formControls {    border-bottom: 1px solid #F2F2F2
+    margin: 1em;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    background-color: #ffffe0;
+}
+
+#content textarea {
+    font: 100% Monaco, "Courier New", Courier, monospace;
+    width: 100%;
+}
+#content select {
+    vertical-align: top;
+}
+#content fieldset {
+    border: 0.1em solid #329fd7;
+    border-style: solid none none none;
+}
+#content legend {
+    padding: 0.5em;
+    font-size: 85%;
+}
+label {
+    font-weight:bold;
+}
+
+#content label {
+}
+
+#content optgroup {
+    font-style: normal;
+    font-weight: bold;
+    color: #999;
+    padding-left: 0.25em;
+}
+#content option {
+    color: black;
+}
+#content optgroup > option {
+    padding: 0 0.25em 0 1em;
+}
+dl.enableFormTabbing dd {
+    margin-left: 0;
+    padding-top: 2em;
+}
+.searchSection {
+    color: #76797c;
+    margin-top: 0.25em;
+}
+.searchSection label:hover {
+    color: Black;
+}
+.field {
+    clear: both;
+    margin-bottom: 1em;
+}
+.field input[type="text"] {
+    /*width: 100%;*/
+}
+input#title {
+    width: 100%;
+}
+.error input#title {
+    width:99%;
+}
+
+.fieldRequired {
+    background: url(required.png) center left no-repeat;
+    padding: 0 0 0 1em;
+    color: White;
+}
+.fieldUploadFile {
+    text-align: right;
+    margin-right: 0.75em;
+    display: none;
+}
+.fieldTextFormat {
+    text-align: right;
+    margin-right: 0.75em
+}
+.formHelp {
+    color: #555;
+    margin: 0 0 0.2em 0;
+}
+div.error {
+    background-color: #fdc;
+    border:  1px solid red;
+    padding: 0.5em;
+    margin:  1em 0;
+}
+.error .fieldRequired {
+    color: #d00;
+}
+div.error.warning {
+    background-color: transparent;
+    border: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+div.error.warning input {
+    border: 2px solid red;
+}
+
+input.inputLabelActive {
+    color: #76797c;
+}
+textarea#form\.description {
+    height: 6em;
+    width: 99%;
+}
+table.listing tbody tr.odd.selected td,
+tr.selected {
+    background-color: #ffa;
+}
+
+/* @group Login form */
+
+body.template-logged_out #content,
+body.template-login_form #content,
+.pb-ajax #login-form {
+    text-align: center;
+}
+
+#fieldset-openid-login input, #login-form input {
+    font-size: 150%;
+}
+
+
+body.template-register #content input,
+body.template-new-user #content input {
+    font-size: 150%;
+    width: inherit;
+
+}
+
+#fieldset-openid-login label, #login-form label {
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+    width: 10em;
+    display: inline-block;
+}
+
+#fieldset-openid-login .formControls input, #login-form .formControls input {
+margin-left: 0.25em;
+}
+
+/* @end */
+
+
+
+/* @group Overlay windows */
+
+/* styling for overlays (popups) */
+
+div.overlay {
+    width: auto;
+    height: auto;
+    /* initially overlay is hidden */
+    display: none;
+    /* some padding to layout nested elements nicely  */
+    margin: 1em;
+    font-size: 80%;
+}
+
+div.overlay-iframe,
+div.overlay-ajax {
+    width: 60%;
+    min-height: 100px;
+    z-index: 99; /* overlays should be above everything */
+}
+
+div.overlay-iframe {
+    height: 60%;
+}
+
+/* default close button positioned on upper-left corner */
+div.overlaybg div.close,
+div.overlay div.close {
+    background-image: url(pb_close.png);
+    position: absolute;
+    left: -14px;
+    top: -14px;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+.pb-ajax {
+    overflow-y: auto;
+}
+
+.pb-ajax, .pb-image {
+    background-color: #fff;
+    border: 1px solid #999;
+    white-space: normal;
+    box-shadow: 0 0 3em 0.5em #666;
+    -moz-box-shadow: 0 0 3em 0.5em #666;
+    -webkit-box-shadow: 0 0 3em #666;
+}
+
+.pb-ajax > div {
+    width: 92%;
+    padding: 1em;
+}
+
+.pb-ajax .documentActions {display:none}
+
+div.overlay div.close span {
+    display: block;
+    height: 1px;
+    margin: -1px 0 0 -1px;
+    overflow: hidden;
+    padding: 0;
+    width: 1px;
+}
+
+div.overlay textarea { width: 100%; }
+
+/* Hide form elements that don't make sense within an overlay. */
+div.overlay .link-parent { display: none; }
+div.overlay #createGroup legend { display: none; }
+div.overlay #createGroup fieldset { border: none; }
+
+/* lets play nice with paragraphs, links, tabbed pages in overlay e.g. when plone.openid is installed */
+div.overlay p {
+    margin-bottom: 1em;
+}
+div.overlay label {
+    margin-bottom: 0.25em;
+}
+div.overlay a:hover {
+    color: #75ad0a;
+}
+div.overlay a.selected {
+    color: #000000;
+}
+div.overlay .formTab {
+    margin-right:1em;
+    font-weight: bold;
+}
+div.overlay .formTab.lastFormTab {
+    margin-right:0em;
+}
+div.overlay .formControls a {
+    display: block;
+    margin: 0.75em;
+}
+
+/* @end */
+
+
+/* @group Invisibles */
+
+.hiddenStructure {
+    display: none;
+    background: transparent;
+    background-image: none; /* safari bug */
+    border: none;
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    margin: -1px 0 0 -1px;
+    width: 1px;
+}
+
+.visualClear {
+	clear: both;
+}
+
+/* links style */
+
+#parent-fieldname-text li {
+	background:url(../images/footer-dot.png) no-repeat scroll 0px 4px transparent;
+	padding-left:12px;
+}
+/* @end */

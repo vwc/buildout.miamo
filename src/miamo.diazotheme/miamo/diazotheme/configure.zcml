@@ -1,0 +1,29 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:cmf="http://namespaces.zope.org/cmf"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="miamo.diazotheme">
+
+  <five:registerPackage package="." initialize=".initialize" />
+  <!-- Include browser directory in order to use z3c.jbot -->
+  <include package=".browser" />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="miamo.diazotheme"
+      directory="profiles/default"
+      description="Diazotheme 4 miamo-contentpage"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+  <!-- -*- extra stuff goes here -*- -->
+   <browser:resourceDirectory
+        name="miamo.diazotheme"
+        directory="static"
+        />
+  
+
+
+</configure>
